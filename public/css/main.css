@@ -1,3 +1,26 @@
 button.btn { display: block; }
 label { font-size: 20px; }
-input[type="text"] { width: 98%; font-size: 18px; }
+input[type="text"] { width: 97%; font-size: 18px; }
+
+.container-fluid { margin: 20px 0; }
+
+.hero-unit h1 { 
+	display: inline-block; 
+	margin-right: 5px; 
+}
+
+.hero-unit h2 { 
+	font-size: 24px;
+	color: #999;
+	font-weight: normal;
+	margin: 0 0 10px 0;
+	display: inline-block;
+}
+
+@media (max-width: 480px) {
+	
+	.hero-unit { padding: 40px; }
+	.hero-unit h1 { font-size: 40px; }
+	.btn { width: 100%; }
+
+}
