@@ -15,9 +15,9 @@ function decode() {
 }
 
 function loadEncoded(data) {
-	$("#decode textarea").val(data);
+	$("#decode input[name='sentence']").val(data);
 }
 
 function loadDecoded(data) {
-	$("#encode textarea").val(data);
+	$("#encode input[name='sentence']").val(data);
 }
